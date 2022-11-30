@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_navigation"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="at.twa.ss2022.storypromptgenerator.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_createNewPromptFragment"
+            app:destination="@id/createNewPromptFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNewPromptFragment"
+        android:name="at.twa.ss2022.storypromptgenerator.CreateNewPromptFragment"
+        android:label="fragment_create_new_prompt"
+        tools:layout="@layout/fragment_create_new_prompt" >
+        <action
+            android:id="@+id/action_createNewPromptFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_createNewPromptFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="at.twa.ss2022.storypromptgenerator.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="genre"
+            app:argType="string" />
+        <argument
+            android:name="title"
+            app:argType="string" />
+        <argument
+            android:name="mainCharacter"
+            app:argType="string" />
+        <argument
+            android:name="location"
+            app:argType="string" />
+        <argument
+            android:name="event"
+            app:argType="string" />
+        <argument
+            android:name="keyElement"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">StoryPromptGenerator</string>
+    <string name="this_plays_a_very_important_role">This plays a very important role...</string>
+    <string name="what_s_happening">What\'s happening?</string>
+    <string name="the_main_character_is">The main Character is...</string>
+    <string name="where_does_it_take_place">Where does it take place?</string>
+    <string name="the_genre_is">The Genre is...</string>
+    <string name="create_a_new_story_prompt">Create a new story prompt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_story_ideas">My story ideas</string>
+    <string name="welcome_back_writer">Welcome back, writer!</string>
+    <string name="go_see_my_story_list">Go see my story list</string>
+    <string name="need_an_idea">Need an idea?</string>
+    <string name="save_prompt">Save Prompt</string>
+    <string name="and_finally_enter_a_title">And finally... enter a title!</string>
+    <string name="home">Home</string>
+    <string name="go_to_list">Go to List</string>
+    <string name="create_a_new_story_prompt_button">create a new story prompt</string>
+    <string name="userpic">userPic</string>
+    <string name="todo">TODO</string>
+    <string name="title">title</string>
+    <string name="genre">genre</string>
+    <string name="main_character">main character</string>
+    <string name="location">location</string>
+    <string name="key_element">key element</string>
+    <string name="event">event</string>
+    <string name="go_to_details">Go to Details</string>
+    <string name="enter_title">enter title...</string>
+    <string name="title_book">Title</string>
+    <string name="gets_disrupted">gets disrupted</string>
+    <string name="now_it_s_your_turn_what_happens_next">Now it\'s your turn. What happens next?</string>
+    <string name="once_upon_a_time_the_life_of">Once upon a time, the life of</string>
+    <string name="and_suddenly">And suddenly</string>
+    <string name="quick_think_of_a_title">Quick, think of a title!</string>
+    <string name="show_prompt">Show prompt</string>
+    <string name="let_s_get_started">Let\'s get started!</string>
+    <string name="once_upon_a_time_the_idle_life_of">Once upon a time, the idle life of</string>
+    <string name="takes_places_in">takes places in</string>
+    <string name="seems_to_be_playing_a_very_important_role">seems to be playing a very important role...</string>
+    <string name="gets_disrupted_when">gets disrupted, when</string>
+</resources>
